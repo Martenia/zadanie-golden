@@ -14,9 +14,11 @@ body {
   padding: 20px 20px;
 }
 
-.nav span {
+.nav h1 {
   color: gold;
   font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 /* Nav */
@@ -143,11 +145,6 @@ section {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  -ms-flex-align: center;
-      align-items: center;
-}
-
-.logo {
   -ms-flex-align: center;
       align-items: center;
 }
