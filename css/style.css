@@ -74,19 +74,68 @@ ul {
             color: white;
             border: 2px solid gold;
         }
-h1 {
+.nav h1 {
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
     text-transform: capitalize;
 }
-h2 {
+.nav h2 {
     font-size: 54px;
     text-transform: uppercase;
 }
+section {
+    color: black;
+}
+.services h1 {
+    font-weight: 800;
+    font-size: 30px;
+}
+.services h2 {
+    font-size: 14px;
+    font-style: italic;
+}
+.services {
+    padding-top: 80px;
+}
+.ser {
+    padding-bottom: 100px;
+}
+.three-box {
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+ }
+.box {
+    padding: 30px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+ }
+.box i {
+    font-size: 40px;
+    background: white;
+    width: 80px;
+    height: 80px;
 
-
-
+    padding: 15px;
+    color: gold;
+    border-radius: 50%;
+    border: 2px solid gold;
+}
+.box i:hover {
+    background: gold;
+    color: white;
+    cursor: pointer;
+    }
+    .three-box h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .three-box h2 {
+        font-size: 12px;
+        font-style: italic;
+    }
 
 
 
