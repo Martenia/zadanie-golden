@@ -170,8 +170,8 @@ section {
 }
 
 .grey img {
-  height: 300px;
-  width: 330px;
+  height: 240px;
+  width: 220px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -225,4 +225,23 @@ footer p {
 }
 
 /* Media */
+@media (max-width: 767px) {
+  .three-box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grey img {
+    height: 300px;
+    width: 330px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
 /*# sourceMappingURL=style.css.map */

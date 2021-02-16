@@ -1,5 +1,3 @@
-
-
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -12,68 +10,67 @@ body {
 .cont {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 20px 20px; 
+    padding: 20px 20px;
 }
 .nav span {
-      color: gold;
-      font-family: 'Raleway', sans-serif;
-  }
-  /* Nav */
+    color: gold;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Nav */
 .nav {
     background-image: url("../images/dark.jpg");
     height: 100vh;
     background-position: center center;
-    background-size: cover; }
-
-ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0; }
-      
-      
-.nav li {
-        display: inline-block;
-        position: relative;
-        color: #f2f2f2;
-        font-size: 26px; }
-      
-.nav li a {
-        padding: 10px 20px;
-        text-decoration: none;
-        color: #f2f2f2;
-        font-size: 14px;
-        font-weight: bold; }
-      
-.nav li a:hover {
-        background-color: gold; }
-      
-.nav > .cont {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; 
-    }
-        
-.splash-inner {
-            position: absolute;
-            width: 90%;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+    background-size: cover; 
 }
-        button {
-            font-weight: bold;
-            font-size: 14px;
-            overflow: hidden;
-            outline: none;
-            padding: 20px 40px;
-            cursor: pointer;
-        }
-        .tt-btn {
-            background-color: gold;
-            background-repeat: no-repeat;
-            color: white;
-            border: 2px solid gold;
-        }
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+.nav li {
+    display: inline-block;
+    position: relative;
+    color: #f2f2f2;
+    font-size: 26px; 
+}
+.nav li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 14px;
+    font-weight: bold; 
+}
+.nav li a:hover {
+    background-color: gold; 
+}
+.nav > .cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.splash-inner {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button {
+    font-weight: bold;
+    font-size: 14px;
+    overflow: hidden;
+    outline: none;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+.tt-btn {
+    background-color: gold;
+    background-repeat: no-repeat;
+    color: white;
+    border: 2px solid gold;
+}
 .nav h1 {
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
@@ -83,6 +80,8 @@ ul {
     font-size: 54px;
     text-transform: uppercase;
 }
+
+/* Sections */
 section {
     color: black;
 }
@@ -101,23 +100,21 @@ section {
     padding-bottom: 100px;
 }
 .three-box {
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
- }
+}
 .box {
     padding: 15px;
     display: flex;
     flex-direction: column;
- }
+}
 .box i {
     font-size: 40px;
     background: white;
     width: 80px;
     height: 80px;
-
     padding: 15px;
     color: gold;
     border-radius: 50%;
@@ -127,16 +124,15 @@ section {
     background: gold;
     color: white;
     cursor: pointer;
-    }
-    .three-box h1 {
-        font-size: 20px;
-        font-weight: 600;
-    }
-    .three-box h2 {
-        font-size: 12px;
-        font-style: italic;
-    }
-
+}
+.three-box h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.three-box h2 {
+    font-size: 12px;
+    font-style: italic;
+}
 .grey {
     background-color: #f7f7f7;
     padding-bottom: 80px;
@@ -148,7 +144,6 @@ section {
 }
 .grey p {
     font-size: 14px;
-
 }
 .white {
     background-color: white;
@@ -160,7 +155,7 @@ section {
     font-size: 16px;
 }
 
-
+/* Footer */
 footer {
     padding: 18px 0;
 }
@@ -170,7 +165,6 @@ footer ul {
     margin: 0;
     text-align: center;
 }
-
 footer li {
     display: inline-block;
     margin: 0 10px 0 0;
@@ -191,23 +185,18 @@ footer p {
     font-size: 12px;
 }
 
-
 /* Media */
 @media (max-width: 767px) {
     .three-box {
-
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-     }
-
+    }
 }
-
 @media (min-width: 1200px) {
     .grey img {
         height: 300px;
         width: 330px;
         object-fit: cover;
     }
-
 }
