@@ -96,6 +96,7 @@ button {
   text-transform: uppercase;
 }
 
+/* Sections */
 section {
   color: black;
 }
@@ -191,6 +192,7 @@ section {
   font-size: 16px;
 }
 
+/* Footer */
 footer {
   padding: 18px 0;
 }
