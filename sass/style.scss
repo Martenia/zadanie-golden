@@ -142,8 +142,8 @@ section {
     padding-bottom: 80px;
 }
 .grey img {
-    height: 300px;
-    width: 330px;
+    height: 240px;
+    width: 220px;
     object-fit: cover;
 }
 .grey p {
@@ -194,6 +194,20 @@ footer p {
 
 /* Media */
 @media (max-width: 767px) {
+    .three-box {
 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
+
+}
+
+@media (min-width: 1200px) {
+    .grey img {
+        height: 300px;
+        width: 330px;
+        object-fit: cover;
+    }
 
 }
